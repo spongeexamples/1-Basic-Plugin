@@ -29,6 +29,10 @@ import org.spongepowered.api.plugin.Plugin;
 /**
  * The main class of the plugin BasicPlugin
  */
+/*
+ * Where in Bukkit you would describe plugin description in a plugin.yml file,
+ * in sponge the @Plugin annotation is used.
+ */
 @Plugin(id = "spongeexamples.basicplugin",      // The id that will be used internally.
                                                 // It is also used for the config name, if only using single configuration filegit .
                                                 // Should be unique for each plugin on the server to prevent conflicts.
